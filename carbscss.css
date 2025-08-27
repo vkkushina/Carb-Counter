@@ -1,0 +1,114 @@
+/* ✅ Base reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+  }
+  
+  .app-container {
+    width: 100%;
+    max-width: 480px; /* ✅ good size for phones */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* ✅ Titles */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  /* ✅ Card style */
+  .card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+  
+  /* ✅ Product lines */
+  .product-line {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .product-line input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* ✅ Controls & buttons */
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #e0e0e0;
+    color: #333;
+    transition: background 0.2s;
+  }
+  
+  button:hover {
+    background: #d0d0d0;
+  }
+  
+  .primary-btn {
+    background: #4285f4;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .primary-btn:hover {
+    background: #3367d6;
+  }
+  
+  /* ✅ Labels + inputs */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #444;
+  }
+  
+  input[type="number"], input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* ✅ Result card */
+  .result-card {
+    background: #f1f8e9;
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #2e7d32;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }  
