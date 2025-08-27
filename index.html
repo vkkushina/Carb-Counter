@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carb Counter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ✅ Mobile scaling -->
+  <link rel="stylesheet" href="carbscss.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Carb Counter</h1>
+
+    <div id="products-container" class="card">
+      <!-- Product lines will go here -->
+    </div>
+
+    <div class="controls">
+      <button id="add-product-btn">+ Add Product</button>
+      <button id="toggle-edit-btn">Save</button>
+    </div>
+
+    <div id="extra-inputs" class="card">
+      <label>
+        Total weight of the product (g):
+        <input type="number" id="total-weight" min="0" step="any">
+      </label>
+      <label>
+        Dish weight (g):
+        <input type="number" id="dish-weight" min="0" step="any">
+      </label>
+    </div>
+
+    <div class="controls">
+      <button id="calculate-btn" class="primary-btn">Calculate</button>
+    </div>
+
+    <div id="result" class="result-card"></div>
+  </div>
+
+  <script src="carbsjs.js" defer></script>
+</body>
+</html>
